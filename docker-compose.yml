@@ -3,6 +3,7 @@ version: "3.9"
 services:
   AutoClaimBot:
     image: jintaxi/autoclaimbot:latest
+    container_name: AutoClaimBot
     restart: unless-stopped
     volumes:
       - ./.env:/app/.env:ro
