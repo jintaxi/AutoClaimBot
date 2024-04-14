@@ -18,7 +18,7 @@ phone_number = getenv('PHONE_NUMBER')  # Ваш номер телефона
 chat_link = 'https://t.me/nastyanovelbot'
 ids = 466_073
 callback = 'get_coins'
-session_name = "jintaxi" # Change on your
+session_name = "jintaxi" # Change on your and in docker compose file
 
 # Создаем клиент Telethon
 client = TelegramClient(f'{session_name}', api_id, api_hash)
